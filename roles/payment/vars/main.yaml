@@ -1,0 +1,5 @@
+CART_HOST: cart.robisam.site
+USER_HOST: user.robisam.site
+RABBITMQ_HOST: rabbitmq.robisam.site
+RABBITMQ_USER: roboshop
+RABBITMQ_PASSWORD: roboshop123

@@ -1,0 +1,7 @@
+- name: "configure {{ component }}"
+  become: yes
+  # hosts: "{{ component }} we are commenting bcz below we're using for terraform project"
+  hosts: localhost
+  connection: local
+  roles: # this will automatically load a folder called roles in current working directory.
+  - "{{ component }}"
