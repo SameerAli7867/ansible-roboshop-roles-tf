@@ -1,2 +1,2 @@
-CATALOGUE_HOST: catalogue.robisam.site
-REDIS_HOST: redis.robisam.site
+CATALOGUE_HOST: catalogue.backend-{{ env }}.robisamcreate.sbs
+REDIS_HOST: robisamcreate.sbs

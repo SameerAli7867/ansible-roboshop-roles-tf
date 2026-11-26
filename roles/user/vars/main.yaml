@@ -1,2 +1,2 @@
-REDIS_HOST: redis.robisam.site
-MONGODB_HOST: mongodb.robisam.site
+REDIS_HOST: redis-{{ env }}.robisamcreate.sbs
+MONGODB_HOST: mongodb-{{ env }}.robisamcreate.sbs
